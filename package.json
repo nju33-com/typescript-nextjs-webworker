@@ -1,0 +1,24 @@
+{
+  "name": "typescript-nextjs-webworker",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:nju33/typescript-nextjs-webworker.git",
+  "author": "nju33 <nju33.ki@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@types/next": "^9.0.0",
+    "@types/node": "^13.1.8",
+    "@types/react": "^16.9.19",
+    "@types/react-dom": "^16.9.5",
+    "next": "^9.2.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "typescript": "^3.7.5"
+  },
+  "devDependencies": {
+    "worker-loader": "^2.0.0"
+  },
+  "scripts": {
+    "dev": "next --port 3333"
+  }
+}
